@@ -1,5 +1,3 @@
-# how to import the data visualization library
-
 hoose a Visualization Library: Select a visualization library that suits your project requirements. Popular options include Chart.js, D3.js, Plotly.js, and Google Charts. Make sure to review the library's documentation and compatibility with Laravel.
 
 Install the Library: Depending on the library, you may need to install it via a package manager like npm or include it directly from a CDN.
