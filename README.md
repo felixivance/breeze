@@ -43,3 +43,27 @@ import Chart from './components/Chart'
 
 Vue.component('line-chart', Chart)
 ```
+
+
+Deployment to Vercel or Netlify
+
+I would then deploy the application to Vercel or Netlify. I would then add the following code to the resources/views/welcome.blade.php file:
+```
+
+<div id="app">
+  <line-chart></line-chart>
+</div>
+
+<script src="{{ mix('js/app.js') }}"></script>
+```
+
+I would then run the following command to compile the assets:
+```
+npm run dev
+```
+
+
+I would then run the following command to deploy the application to Netlify:
+```
+netlify deploy --prod
+```
