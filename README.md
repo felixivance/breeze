@@ -67,3 +67,8 @@ I would then run the following command to deploy the application to Netlify:
 ```
 netlify deploy --prod
 ```
+
+or vercel
+```
+vercel --prod
+```
